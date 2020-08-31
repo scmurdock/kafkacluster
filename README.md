@@ -52,7 +52,7 @@ $ ./startup.sh
 
 Create your first topic:
 
-# kafka-topics --create --zookeeper zookeeper:2181 --topic sean.test.topic --replication-factor 1 --partitions 10
+# kafka-topics --create --zookeeper localhost:2181 --topic sean.test.topic --replication-factor 1 --partitions 10
 
 # kafka-console-producer --broker-list localhost:9092 --topic sean.test.topic
 >{"sensorpayload":test}
