@@ -73,4 +73,4 @@ Write another message to the topic:
 # kafka-console-producer --broker-list localhost:9092 --topic sean.test.topic
 >{"sensorpayload":test2}
 
-Watch the consumer terminal for the new message to appear.
+Watch the consumer terminal for the new message to appear
