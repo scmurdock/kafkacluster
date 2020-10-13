@@ -32,7 +32,7 @@ Shell into the container running Kafka:
 
 $ docker exec -it starter_kafka0_1 /bin/sh
 
-Write another message to the topic:
+Write another message to the topic
 
 # kafka-console-producer --broker-list localhost:9092 --topic sean.test.topic
 >{"sensorpayload":test2}
