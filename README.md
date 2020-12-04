@@ -44,7 +44,7 @@ Watch the consumer for the new message to appear.
 
 
 
-Using the Workspace:
+# Using the Workspace:
 
 Run the startup script
 
